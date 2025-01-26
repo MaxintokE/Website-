@@ -1,0 +1,155 @@
+body {
+    background-color: 
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
+}
+
+header {
+   background: #333;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+main {
+   padding: 20px;
+}
+
+.property-list {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.property-item {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin: 10px;
+   width: 30%;
+}
+
+.why-us-item {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin: 10px 0;
+}
+
+.testimonial {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin: 10px 0;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin: auto;
+}
+
+form label {
+   margin-top: 10px;
+}
+
+form input {
+   padding: 8px;
+   margin-top: 5px;
+}
+
+footer {
+   text-align: center;
+   padding: 10px 0;
+   background: #333;
+   color: #fff;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+
+.social-media {
+   margin-top: 10px;
+}
+
+.social-media a {
+   color: #fff;
+   margin: 0 10px;
+   text-decoration: none;
+}
+.office-location {
+   margin-top: 10px;
+   text-align: center;
+}
+
+.office-location h4 {
+   margin: 5px 0;
+}
+
+.property-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px; /* Space between property items */
+}
+
+.property-item {
+   border: 1px solid #ccc; /* Border around property items */
+   border-radius: 5px; /* Rounded corners */
+   padding: 10px;
+   width: calc(33.33% - 20px); /* Three items per row */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.property-image {
+   width: 100%; /* Full width */
+   height: auto; /* Maintain aspect ratio */
+   border-radius: 5px; /* Rounded corners for images */
+}
+/* Media Queries */
+@media (max-width: 768px) {
+   body {
+       font-size: 16px; /* Adjust font size for tablets */
+   }
+
+   .sidebar {
+       width: 100%; /* Full width on small screens */
+   }
+
+   .content {
+       padding: 10px; /* Reduce padding */
+   }
+
+   .property-item {
+       width: calc(50% - 20px); /* Two items per row */
+   }
+}
+
+@media (max-width: 480px) {
+   body {
+       font-size: 14px; /* Adjust font size for mobile devices */
+   }
+
+   nav ul li {
+       display: block; /* Stack navigation items */
+       margin: 5px 0;
+   }
+
+   .property-item {
+       width: 100%; /* One item per row */
+   }
+}
