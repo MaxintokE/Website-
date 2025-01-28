@@ -2,178 +2,373 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
     <title>AMCCO Properties Ltd</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-0vEeBdW+LXjjJd54bAOpSB3oYtbv3f3p5jXRGUETkDGeKK1jD2t7ovfbuxZGGzHh" crossorigin="anonymous"></script>
+
+    
 </head>
 <body>
     <header>
         <h1>AMCCO Properties Ltd</h1>
+  
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#properties">Properties</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#subscribe">Subscribe</a></li>
-                <li><a href="#contact">Contact</a></li>
+   
+                <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#properties"><i class="fa fa-building"></i>Properties</a></li>
+                <li><a href="#about-us"><i class="fa fa-info-circle"></i>About Us</a></li>
+                <li><a href="#visitForm"><i class="fa fa-car"></i>Visit Us</a></li>
+                <li><a href="#testimonials"><i class="fa fa-comments"></i>Testimonials</a></li>
+                <li><a href="#Newsletter"><i class="fa fa-envelope"></i>Newsletter</a></li>
+                <li><a href="#contact"><i class="fa fa-phone"></i>Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Welcome to AMCCO Properties</h2>
-            <p>Your trusted partner in real estate.</p>
-        </section>
+        <section id="home" class="welcome-section" style="background-color:#40E0D0;">
+    <h2>Welcome to AMCCO Properties</h2>
+    <p>Your trusted partner in real estate.</p>
+    <div class="welcome-content">
+        <p>At <strong>AMCCO Properties</strong>, we believe in turning your dreams into reality. With years of experience in the real estate market, our dedicated team is here to assist you in finding the perfect property that fits your needs.</p>
+        <p>Whether you are looking to buy, sell, or rent, we offer a comprehensive range of services tailored to ensure a seamless experience. Our portfolio includes residential homes, commercial properties, and investment opportunities across various locations.</p>
+        <p>We pride ourselves on our commitment to customer satisfaction, transparency, and integrity. Our mission is to provide you with the highest level of service and support, making the process of buying or selling a property as smooth as possible.</p>
+        <p>Explore our listings, learn about our services, and discover why we are the preferred choice for real estate in the region. Let AMCCO Properties be your guide in navigating the exciting world of real estate!</p>
+        <p><strong>Contact us today</strong> to schedule a consultation or to learn more about how we can help you achieve your real estate goals.</p>
+    </div>
+</section>
 
-        <section id="properties">
-    <h2>Our Properties</h2>
+<section id="properties">
+    <h2><i class="fa fa-building"></i> Our Properties</h2>
     <div class="property-list">
-        <div class="property-item">
+        <!-- Property 1 -->
+        <div class="property-item"style="background-color: #E5E4E2;">
             <img src=".\images\OIF.jpeg" alt="Property 1" class="property-image">
             <h3>Property 1</h3>
-            <p>Description of Property 1.</p>
+            <p>Description: A beautiful modern home located in the heart of Nairobi, offering spacious rooms and a large garden.</p>
+            <p><strong>Size:</strong> 2,500 sq ft</p>
+            <p><strong>Area Covered:</strong> Nairobi City Center</p>
+            <p><strong>Number of Rooms:</strong> 4 Bedrooms, 3 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> Yes</p>
             <p><strong>Price:</strong> $300,000</p>
             <p><strong>Location:</strong> Nairobi, Kenya</p>
         </div>
-        <div class="property-item">
+        
+        <!-- Property 2 -->
+        <div class="property-item" style="background-color: #E5E4E2;">
             <img src=".\images\R.jpeg" alt="Property 2" class="property-image">
             <h3>Property 2</h3>
-            <p>Description of Property 2.</p>
+            <p>Description: A luxurious beachfront property in Mombasa, perfect for relaxation and family gatherings.</p>
+            <p><strong>Size:</strong> 3,000 sq ft</p>
+            <p><strong>Area Covered:</strong> Nyali Beach</p>
+            <p><strong>Number of Rooms:</strong> 5 Bedrooms, 4 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> Yes</p>
             <p><strong>Price:</strong> $400,000</p>
             <p><strong>Location:</strong> Mombasa, Kenya</p>
         </div>
-        <div class="property-item">
+        
+        <!-- Property 3 -->
+        <div class="property-item" style="background-color: #E5E4E2;">
             <img src=".\images\chva-graphic-riverclub_model-053024.avif" alt="Property 3" class="property-image">
             <h3>Property 3</h3>
-            <p>Description of Property 3.</p>
+            <p>Description: A charming townhouse in Kisumu, featuring modern amenities and close proximity to the city center.</p>
+            <p><strong>Size:</strong> 1,800 sq ft</p>
+            <p><strong>Area Covered:</strong> Kisumu City</p>
+            <p><strong>Number of Rooms:</strong> 3 Bedrooms, 2 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> No</p>
             <p><strong>Price:</strong> $250,000</p>
             <p><strong>Location:</strong> Kisumu, Kenya</p>
         </div>
-        <div class="property-item">
+        
+        <!-- Property 4 -->
+        <div class="property-item" style="background-color: #E5E4E2;">
             <img src=".\images\hero-real-estate-facts-trends.jpeg" alt="Property 4" class="property-image">
             <h3>Property 4</h3>
-            <p>Description of Property 4.</p>
+            <p>Description: An elegant villa in Nakuru, surrounded by nature, ideal for those seeking tranquility.</p>
+            <p><strong>Size:</strong> 3,500 sq ft</p>
+            <p><strong>Area Covered:</strong> Lake Nakuru National Park Area</p>
+            <p><strong>Number of Rooms:</strong> 6 Bedrooms, 5 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> Yes</p>
             <p><strong>Price:</strong> $500,000</p>
             <p><strong>Location:</strong> Nakuru, Kenya</p>
         </div>
-        <div class="property-item">
+        
+        <!-- Property 5 -->
+        <div class="property-item" style="background-color: #E5E4E2;">
             <img src=".\images\remodel-building-luxury-living-shenandoah-valley-virginia.jpeg" alt="Property 5" class="property-image">
             <h3>Property 5</h3>
-            <p>Description of Property 5.</p>
+            <p>Description: A stunning luxury apartment in Eldoret with breathtaking views and high-end finishes.</p>
+            <p><strong>Size:</strong> 2,200 sq ft</p>
+            <p><strong>Area Covered:</strong> Eldoret Town Center</p>
+            <p><strong>Number of Rooms:</strong> 3 Bedrooms, 3 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> No</p>
             <p><strong>Price:</strong> $600,000</p>
             <p><strong>Location:</strong> Eldoret, Kenya</p>
         </div>
-        <div class="property-item">
+        
+        <!-- Property 6 -->
+        <div class="property-item" style="background-color: #E5E4E2;">
             <img src=".\images\R.jpeg" alt="Property 6" class="property-image">
             <h3>Property 6</h3>
-            <p>Description of Property 6.</p>
+            <p>Description: A cozy family home in Nyeri, featuring a spacious layout and a friendly neighborhood.</p>
+            <p><strong>Size:</strong> 1,900 sq ft</p>
+            <p><strong>Area Covered:</strong> Nyeri Town</p>
+            <p><strong>Number of Rooms:</strong> 4 Bedrooms, 2 Bathrooms</p>
+            <p><strong>Servant Quarter:</strong> Yes</p>
             <p><strong>Price:</strong> $350,000</p>
             <p><strong>Location:</strong> Nyeri, Kenya</p>
         </div>
+    </div>
+</section>
+
+
+   
     
     </div>
 </section>
 
+<section id="more-properties" class="text-center py-5" style="background-color: #ff5733; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+    <h2 class="display-4 font-weight-bold text-dark mb-3" style="font-family: 'Arial', sans-serif;">
+        Explore More Properties
+    </h2>
+    <p class="lead text-muted mb-4" style="font-size: 1.2rem;">
+        Discover a curated selection of properties tailored to your dreams.
+    </p>
+    <a href="https://proxima.co.ke/property?search=all_types&location=westlands&gad_source=1&gclid=Cj0KCQiA19e8BhCVARIsALpFMgHXKn_AY993AkcpjRo7H2X0wSZmYWEAF0ctoTsEEPbgBXQl_oD8QCcaAp7KEALw_wcB" class="btn btn-primary btn-lg shadow" style="padding: 12px 30px; font-size: 1.1rem; border-radius: 25px; transition: background-color 0.3s, transform 0.3s;">
+        View More Properties
+    </a>
+</section>
+
+<section id="about-us" class="py-5" style="background-color: #F0FFFF; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold text-dark mb-4" style="font-family: 'Arial', sans-serif;">
+            About Us
+        </h2>
+        <p class="lead text-muted mb-4" style="font-size: 1.2rem;">
+            Founded in 2010, we have been dedicated to helping individuals and families find their dream homes. 
+            Our team of experienced professionals is committed to providing personalized service and expert guidance.
+        </p>
+        <h3 class="font-weight-bold text-dark mb-3">Our Mission</h3>
+        <p class="text-muted mb-4" style="font-size: 1rem;">
+            To empower our clients with the knowledge and resources they need to make informed real estate decisions while fostering lasting relationships built on trust and integrity.
+        </p>
+        <h3 class="font-weight-bold text-dark mb-3">Our Values</h3>
+        <ul class="list-unstyled text-muted" style="font-size: 1rem;">
+            <li><i class="fa fa-thumbs-up" style="color: #007bff;"></i> Integrity</li>
+            <li><i class="fa fa-star" style="color: #ffc107;"></i> Excellence</li>
+            <li><i class="fa fa-cogs" style="color: #28a745;"></i> Innovation</li>
+            <li><i class="fa fa-users" style="color: #17a2b8;"></i> Community</li>
+        </ul>
     </div>
-    <div class="browse-more">
-        <a href="https://vaal.co.ke/apartments_category/sale/" class="browse-more-button">Browse More Properties</a>
+</section>
+      <section id="why-choose-us" class="py-5" style="background-color:#F0FFFF; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold text-dark mb-4" style="font-family: 'Arial', sans-serif;">
+            Why Choose Us?
+        </h2>
+        <p class="lead text-muted mb-5" style="font-size: 1.2rem;">
+            Discover the unique benefits that set us apart in the real estate market.
+        </p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-shield fa-3x mb-3" style="color: #007bff;"></i>
+                        <h5 class="font-weight-bold text-dark">Expert Guidance</h5>
+                        <p class="text-muted">Our experienced team provides personalized support to navigate the real estate landscape.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <i class="fas fa-thumbs-up fa-3x mb-3" style="color: #28a745;"></i>
+                        <h5 class="font-weight-bold text-dark">Trusted Reputation</h5>
+                        <p class="text-muted">We have built a strong reputation based on trust, integrity, and customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <i class="fas fa-comments fa-3x mb-3" style="color: #ff5733;"></i>
+                        <h5 class="font-weight-bold text-dark">Open Communication</h5>
+                        <p class="text-muted">We prioritize clear and open communication to ensure you are informed every step of the way.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are dedicated to providing the best real estate services.</p>
-        </section>
-
-        <section id="why-us">
-            <h2>Why Choose Us?</h2>
-            <div class="why-us-item">
-                <h3>Expertise</h3>
-                <p>Our team has years of experience in the real estate market, ensuring you get the best advice.</p>
+<section id="testimonials" class="py-5" style="background-color: #96DED1; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold text-dark mb-4" style="font-family: 'Arial', sans-serif;">
+            What Our Clients Say
+        </h2>
+        <p class="lead text-muted mb-5" style="font-size: 1.2rem;">
+            Hear from our satisfied clients about their experiences with us.
+        </p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <img src="https://media.istockphoto.com/id/1135381120/photo/portrait-of-a-young-woman-outdoors-smiling.jpg?s=612x612&w=0&k=20&c=T5dukPD1r-o0BFqeqlIap7xzw07icucetwKaEC2Ms5M=" alt="Client 1" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold text-dark">Beatrice Akinyi</h5>
+                        <p class="text-muted">"The team was incredibly helpful in finding my dream home. Highly recommend!"</p>
+                    </div>
+                </div>
             </div>
-            <div class="why-us-item">
-                <h3>Customer-Centric Approach</h3>
-                <p>Your needs are our priority. We tailor our services to meet your specific requirements.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <img src="https://media.istockphoto.com/id/1283069710/photo/senior-black-business-owner.jpg?s=612x612&w=0&k=20&c=YC-RRp4cIJPWU_COaLZc_7xuJZMevDHVtRXRzdISBTo=" alt="Client 2" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold text-dark">Kelvin Mwangi</h5>
+                        <p class="text-muted">"Fantastic service! They made the buying process so easy and stress-free."</p>
+                    </div>
+                </div>
             </div>
-            <div class="why-us-item">
-                <h3>Wide Range of Properties</h3>
-                <p>We offer a diverse portfolio of properties to suit every budget and preference.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 15px;">
+                    <div class="card-body text-center">
+                        <img src="https://media.gettyimages.com/id/1179796267/photo/businesswoman-testimonial-portrait.jpg?s=612x612&w=0&k=20&c=4fnd-YvWXmOacc6tzHIMglkRAm7Fi_fH_m5IRLPVts4=" alt="Client 3" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold text-dark">Emily Johnson</h5>
+                        <p class="text-muted">"I couldn't have asked for a better experience. Professional and attentive!"</p>
+                    </div>
+                </div>
             </div>
-            <div class="why-us-item">
-                <h3>Trust and Integrity</h3>
-                <p>We believe in building lasting relationships based on trust and transparency.</p>
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <h2>Client Testimonials</h2>
-            <div class="testimonial">
-                <p>"AMCCO Properties helped me find my dream home. Highly recommended!"</p>
-                <cite>- Client A</cite>
-            </div>
-            <div class="testimonial">
-                <p>"Excellent service and support throughout the buying process."</p>
-                <cite>- Client B</cite>
-            </div>
-            <div class="testimonial">
-                <p>"Professional and friendly team. I couldn't be happier!"</p>
-                <cite>- Client C</cite>
-            </div>
-        </section>
-
-        <section id="book-visit">
-            <h2>Book a Site Visit</h2>
-            <form id="visitForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" required>
-                
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" required>
-                
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-
-        <section id="subscribe">
-            <h2>Subscribe to Our Newsletter</h2>
-            <form id="newsletterForm">
-                <label for="newsletterEmail">Email:</label>
-                <input type="email" id="newsletterEmail" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@amccopropertiesltd.co.ke</p>
-            <button id="contactButton">Get in Touch</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 AMCCO Properties Ltd</p>
-        <div class="office-location">
-            <h4>Office Location</h4>
-            <p>TH Archard Gikambura, Along Dagoretti Road, Near Oakwood Hospital</p>
-            <p>Email: <a href="mailto:customerservice@amcco.co.ke">customerservice@amcco.co.ke</a></p>
-            <p>Phone/WhatsApp: +254 701 293 199</p>
         </div>
-        <div class="social-media">
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">LinkedIn</a>
-        </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
-</body>
-</html>
+        <section id="visitForm" class="py-5" style="background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold mb-4" style="font-family: 'Arial', sans-serif;">
+            Book a Site Visit
+        </h2>
+        <p class="lead mb-4" style="font-size: 1.2rem;">
+            Fill out the form below to schedule your visit.
+        </p>
+        <form class="mt-4">
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Additional Notes (optional)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="border-radius: 25px; padding: 10px 30px;">
+                Schedule Visit
+            </button>
+        </form>
+    </div>
+</section>
+
+<section id="Newsletter" class="py-5" style="background-color: #28a745; color: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold mb-4" style="font-family: 'Arial', sans-serif;">
+            Join Our Newsletter
+        </h2>
+        <p class="lead mb-4" style="font-size: 1.2rem;">
+            Stay updated with the latest news and offers. Subscribe now!
+        </p>
+        <form class="mt-4">
+            <div class="form-row justify-content-center">
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Enter your email" required style="border-radius: 25px;">
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button id="newsletterForm"type="submit" class="btn btn-light btn-lg" style="border-radius: 25px; padding: 10px 20px;">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="mt-4">
+            <img src="https://t3.ftcdn.net/jpg/02/23/22/68/360_F_223226803_yrXmCxo4ZkrKoXCDayNjqtZF3UNbRMPG.jpg" alt="Newsletter" class="img-fluid rounded" style="width: 100px; height: auto; border-radius: 15px;">
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5" style="background-color: #C9CC3F; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold mb-4" style="font-family: 'Arial', sans-serif; color: #6082B6;">
+            Get in Touch with Us
+        </h2>
+        <p class="lead mb-4" style="font-size: 1.2rem; color: #023020;">
+            We’d love to hear from you! Fill out the form below or reach out directly.
+        </p>
+        <form class="mt-4">
+            <div class="form-row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required style="border-radius: 25px;">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required="email"required style="border-radius: 35px;" >
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Your Message" required style="border-radius: 25px;"></textarea>
+            </div>
+            <button id="contactButton" type="submit" class="btn btn-primary btn-lg" style="border-radius: 25px; padding: 10px 30px;">
+                Send Message
+            </button>
+        </form>
+        <div class="mt-4">
+            <p style="color: #28a745;">Or reach us at:</p>
+            <p>Email: <a href="mailto:himaxwell36@gmail.com" style="color: #28a745;">himaxwell36@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254114002298" style="color: #28a745;">+254114002298</a></p>
+        </div>
+    </div>
+</section>
+
+   <div id="mybutton">
+<button class="feedback"><a href="#home"><i class="fa fa-home"></i></a></button>
+</div>    
+
+</main>
+
+    <!-- Include Font Awesome in the head section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<footer class="py-5" style="background-color: #000000; color: white;">
+    <div class="container text-center">
+        <h2 class="font-weight-bold mb-4" style="color: #28a745;">
+            Our Office Location
+        </h2>
+        <div class="d-flex justify-content-center mb-4">
+            <i class="fas fa-map-marker-alt" style="font-size: 50px; color: #28a745; margin-right: 10px;"></i>
+            <div>
+                <h4 style="color: #28a745;">123 Main Street, City, Country</h4>
+                <p style="color: #ccc;">Open Monday to Friday, 9 AM - 5 PM</p>
+            </div>
+        </div>
+        <div class="map-container mb-4" style="width: 100%; height: 300px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509101!2d144.95373531531678!3d-37.81627997975115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f1b1f33%3A0x5045675218ceed0!2s123%20Main%20St%2C%20Melbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" 
+                width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <h4 style="color: #28a745;">Follow Us</h4>
+        <div class="social-icons mb-4">
+            <a href="https://facebook.com" target="_blank" style="color: #28a745; margin: 0 10px;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" style="color: #28a745; margin: 0 10px;">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_instagram" style="color: #28a745; margin: 0 10px;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <p>2025 AMMCO LTD. All Right Reserved</p>
+            <script src="script.js"></script>
+        </body>
